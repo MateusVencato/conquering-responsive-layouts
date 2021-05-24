@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  background: #23424a;
+  width: 100%;
+  padding: 9em 8em;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 900;
+  padding-bottom: 0.5em;
+}
+
+.subtitle {
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 400;
+  padding-bottom: 2.5em;
+}
+
+.title,
+.subtitle {
+  max-width: 800px;
+  color: #ffffff;
+}
+
+.btn {
+  background: #38cfd9;
+  mix-blend-mode: normal;
+  border-radius: 31.5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  border: none;
+  padding: 1em 3em;
+  text-transform: uppercase;
+  color: #072a2d;
+  cursor: pointer;
+}
